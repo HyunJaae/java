@@ -5,26 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a881a29a-dd1c-4a10-974c-a3abbdb64505" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hyeonjae/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hyeonjae/NullObjectPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hyeonjae/Outcome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hyeonjae/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hyeonjae/PredictedOutcome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/hyeonjae/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/hyeonjae/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/hyeonjae/OutcomeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8/src/main/java/study/java/java8/standard/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java8/src/main/java/study/java/java8/standard/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/observer/swing/SwingObserverExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/observer/wheather/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/observer/wheather/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/observer/wheather/ForecastDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/observer/wheather/HeatIndexDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/observer/wheather/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/observer/wheather/StatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/observer/wheather/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/observer/wheather/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/observer/wheather/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/DuckBeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/duck/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/duck/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/duck/ModelDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/fly/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/fly/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/fly/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/fly/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/quack/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/quack/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/quack/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/me/hyeonjae/strategy/simuduck/quack/Squeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/hyeonjae/KotlinTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/hyeonjae/ListOfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java8/src/main/java/study/java/java8/example/MyFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/issuestore/0/5/05c48ad9def2662b4c6453bb1fb8e8efd866016a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/issuestore/1/7/174b9197014a5d8af67792c7959d389c64f5c27e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/issuestore/3/0/30bc91318cbfce2f8b94afd25ae130d0d5d190cb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/issuestore/5/c/5cd45630fe8d811df49fe7114229e764f6ab8cc1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/issuestore/5/d/5d4c446ceb0eff30d09d3bab939bde1fa85a13b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/issuestore/7/8/7876b67a5488677ef6c3f3c7bc48eca88a533259" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/issuestore/8/c/8c6bea5b38ce5aa79b8b85de103aa0cc9687698d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/issuestore/a/7/a7abdf7fc1ef8c16cbeee7994a7f4c9bc0661583" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/securityhotspotstore/0/5/05c48ad9def2662b4c6453bb1fb8e8efd866016a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/securityhotspotstore/1/7/174b9197014a5d8af67792c7959d389c64f5c27e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/securityhotspotstore/3/0/30bc91318cbfce2f8b94afd25ae130d0d5d190cb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/securityhotspotstore/5/c/5cd45630fe8d811df49fe7114229e764f6ab8cc1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/securityhotspotstore/5/d/5d4c446ceb0eff30d09d3bab939bde1fa85a13b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/securityhotspotstore/7/8/7876b67a5488677ef6c3f3c7bc48eca88a533259" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/securityhotspotstore/8/c/8c6bea5b38ce5aa79b8b85de103aa0cc9687698d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/securityhotspotstore/a/7/a7abdf7fc1ef8c16cbeee7994a7f4c9bc0661583" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/src/xunit/TestResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xunittdd/src/xunit/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e7264cc54e9696ebfbec9c4bd202a6b2df182ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e7264cc54e9696ebfbec9c4bd202a6b2df182ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30fedf315c2c31961ca7a24c79b7a3f2beb87075" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30fedf315c2c31961ca7a24c79b7a3f2beb87075" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6834df9cc81fe05c5de2b27fc668ee04284dca69" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6834df9cc81fe05c5de2b27fc668ee04284dca69" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fdd692dd5aa0c0983cbb2d249576458e75ecbd5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fdd692dd5aa0c0983cbb2d249576458e75ecbd5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java8/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xunittdd/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xunittdd/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../xunittdd/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xunittdd/src/xunit/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xunittdd/src/xunit/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xunittdd/src/xunit/TestCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xunittdd/src/xunit/TestCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xunittdd/src/xunit/WasRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xunittdd/src/xunit/WasRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xunittdd/src/xunit/XUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xunittdd/src/xunit/XUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +84,17 @@
         <option value="Record" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2UvwwUyim6QFwWEivXjOKTCFu8X" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,31 +103,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="me.hyeonjae" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OutcomeTest.isOutcomeSafeTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.hyeonjae.App" />
+  <component name="RunManager" selected="JUnit.KotlinTest.testWhenExpression">
+    <configuration name="KotlinTest.createListByListOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java17" />
       <extension name="coverage">
         <pattern>
@@ -83,12 +136,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="me.hyeonjae" />
+      <option name="MAIN_CLASS_NAME" value="me.hyeonjae.KotlinTest" />
+      <option name="METHOD_NAME" value="createListByListOf" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullObjectPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.hyeonjae.NullObjectPattern" />
+    <configuration name="KotlinTest.testWhenExpression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java17" />
       <extension name="coverage">
         <pattern>
@@ -96,12 +152,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="me.hyeonjae" />
+      <option name="MAIN_CLASS_NAME" value="me.hyeonjae.KotlinTest" />
+      <option name="METHOD_NAME" value="testWhenExpression" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outcome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.hyeonjae.Outcome" />
+    <configuration name="ListOfTest.createListByListOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java17" />
       <extension name="coverage">
         <pattern>
@@ -109,12 +168,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="me.hyeonjae" />
+      <option name="MAIN_CLASS_NAME" value="me.hyeonjae.ListOfTest" />
+      <option name="METHOD_NAME" value="createListByListOf" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Record" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.hyeonjae.Record" />
+    <configuration name="ListOfTest.testSwitch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java17" />
       <extension name="coverage">
         <pattern>
@@ -122,6 +184,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="me.hyeonjae" />
+      <option name="MAIN_CLASS_NAME" value="me.hyeonjae.ListOfTest" />
+      <option name="METHOD_NAME" value="testSwitch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,11 +385,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KotlinTest.testWhenExpression" />
+        <item itemvalue="JUnit.ListOfTest.testSwitch" />
+        <item itemvalue="JUnit.KotlinTest.createListByListOf" />
+        <item itemvalue="JUnit.ListOfTest.createListByListOf" />
         <item itemvalue="JUnit.OutcomeTest.isOutcomeSafeTest" />
-        <item itemvalue="Application.Outcome" />
-        <item itemvalue="Application.NullObjectPattern" />
-        <item itemvalue="Application.Record" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -343,6 +409,10 @@
       <workItem from="1695276941364" duration="2208000" />
       <workItem from="1695457696182" duration="6861000" />
       <workItem from="1695640042215" duration="10000" />
+      <workItem from="1695972916665" duration="619000" />
+      <workItem from="1699097430381" duration="474000" />
+      <workItem from="1699097911784" duration="120000" />
+      <workItem from="1699098039958" duration="2748000" />
     </task>
     <servers />
   </component>

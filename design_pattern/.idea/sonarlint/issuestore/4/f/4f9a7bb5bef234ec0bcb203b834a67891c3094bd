@@ -1,0 +1,6 @@
+
+x
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "index".(‰Ý×ÿùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(øÆ¥Üýÿÿÿÿ
+J
+java:S1068"/Remove this unused "weatherData" private field.(òÿÉ™øÿÿÿÿ
